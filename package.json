@@ -1,0 +1,39 @@
+{
+  "name": "new_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.554.0",
+    "@aws-sdk/lib-storage": "^3.554.0",
+    "@aws-sdk/s3-request-presigner": "^3.554.0",
+    "@openzeppelin/defender-relay-client": "^1.54.1",
+    "bignumber.js": "^9.1.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^5.7.2",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "otp-generator": "^4.0.1",
+    "redis": "^4.6.13",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
